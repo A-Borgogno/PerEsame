@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from datetime import datetime, time
+from datetime import date, time
 
 
 @dataclass
@@ -9,7 +9,7 @@ class Race:
     round: int
     circuitId: int
     name: str
-    date: datetime
+    date: date
     time: time
     url: str
 
